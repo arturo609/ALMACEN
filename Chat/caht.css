@@ -1,0 +1,43 @@
+body {
+    margin: 0; /* Elimina el margen por defecto del cuerpo */
+    padding: 0; /* Elimina el padding por defecto del cuerpo */
+    background: linear-gradient(90deg, rgba(21, 31, 48, 1) 14%, rgba(0, 212, 255, 1) 100%); /* Aplica un degradado de fondo */
+    height: 100vh; /* Corrige "100vb" a "100vh" para establecer la altura al 100% de la ventana de visualización */
+    color: azure; /* Establece el color del texto a azul claro */
+}
+
+header {
+    height: 12rem; /* Establece la altura del encabezado */
+    display: flex; /* Utiliza flexbox para alinear los elementos dentro del encabezado */
+    position: fixed; /* Fija el encabezado en la parte superior de la página */
+    top: 0; /* Coloca el encabezado en la parte superior */
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(166, 114, 70, 0) 100%); /* Aplica un degradado de fondo al encabezado */
+}
+
+.title-1 { /* Corrige el nombre de la clase de "titel-1" a "title-1" para coincidir con el HTML */
+    margin: 0; /* Elimina el margen alrededor del título */
+}
+
+.container-nav {
+    display: flex; /* Utiliza flexbox para alinear los elementos de navegación */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
+}
+
+.link-nav {
+    border: solid 1px #2d27e3; /* Genera el borde externo y establece el color */
+    background-color: #a68f7b; /* Establece el color de fondo */
+    padding: 1rem; /* Añade un padding alrededor del texto del enlace */
+    width: 10rem; /* Establece un ancho fijo para los enlaces de navegación */
+    height: 2.5rem; /* Corrige la altura a 2.5rem para ser más visible (originalmente estaba en 0.9rem) */
+    margin: 1rem 1rem 0 0; /* Añade un margen alrededor de los enlaces */
+    border: solid 3px honeydew; /* Corrige "3xp" a "3px" para establecer el grosor del borde */
+    border-radius: 8rem; /* Redondea las esquinas del enlace */
+    display: grid; /* Utiliza un contenedor de cuadrícula para centrar el contenido */
+    place-content: center; /* Centra el contenido del enlace */
+    text-decoration: none; /* Elimina el subrayado del texto del enlace */
+    color: #735c73; /* Establece el color del texto */
+}
+
+.uno {
+    margin-top: 13rem; /* Añade un margen superior para separar esta sección del encabezado fijo */
+}

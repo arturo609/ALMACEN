@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 15rem;
+    height: 15rem;
+}
+.uno{
+    width: 5rem;
+    height: 5rem;
+    background-color: aquamarine;
+    position: fixed;
+    z-index: 0;
+    top: 20px;
+}
+.dos{
+    height: 200vh;
+    background-color: rgb(182, 255, 127);
+    /* position: relative; */
+    /* z-index: 1; */
+}
+.tres{
+    background-color: rgb(127, 170, 255);
+}
+.cuatro{
+    width: 8rem;
+    height: 8rem;
+    background-color: blueviolet;
+}
